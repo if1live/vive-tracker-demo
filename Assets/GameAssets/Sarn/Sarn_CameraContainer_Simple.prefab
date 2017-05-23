@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4237187448761580}
+  - component: {fileID: 114270243592336858}
   m_Layer: 0
   m_Name: Sarn_CameraContainer_Simple
   m_TagString: Untagged
@@ -100,7 +101,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 3
+  m_TargetEye: 0
   m_HDR: 1
   m_AllowMSAA: 1
   m_ForceIntoRT: 0
@@ -122,6 +123,19 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1634420872427620}
   m_Enabled: 1
+--- !u!114 &114270243592336858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106328959391976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6050f77014c790446859f8c31800b49a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headTr: {fileID: 4237187448761580}
+  _offset: {x: 0, y: 0, z: 0}
 --- !u!124 &124678970462682422
 Behaviour:
   m_ObjectHideFlags: 1
